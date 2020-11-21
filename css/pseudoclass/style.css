@@ -1,0 +1,32 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+  background-color: #13a4a4;
+}
+.main-nav__item {
+  /* Horizontal */
+  display: inline-block;
+}
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  /*border-radius: 2px;
+  background-color: red;*/
+}
+/* Pseudo clase
+Defiene el estilo de un estado especial de un eemento
+*/
+.main-nav__item a:hover {
+  color: crimson;
+}
+.main-nav__item:active {
+  color: red;
+}
+/* Pseudo elemento 
+Define el estilo de una parte específica de un elemento
+*/
+.main-nav__item::after {
+  content: ' | ';
+}

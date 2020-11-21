@@ -1,0 +1,15 @@
+* {
+  /* Suma el padding con el width del elemento para que no se salga del % de pantalla */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+main {
+  width: 100%;
+  height: 500px;
+  /* tamaño, tipo de línea, color */
+  border: 10px solid red;
+  /* (value) arriba - abajo - izquierda - derecha*/
+  /* (value value) arriba - abajo & izquierda - derecha*/
+  padding: 20px 35px;
+}
